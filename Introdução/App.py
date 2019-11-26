@@ -172,8 +172,6 @@ for c in nomes:
 
 else:
     print(f"Não há palavras com {char}.")
-    
-'''
 
 # SPLIT JOIN ENUMERATE
 
@@ -190,3 +188,29 @@ n1, n2 = lista
 
 print(n1)
 print(n2)
+
+
+
+#Troca de valores
+
+a = 10
+b = "Oi"
+
+a, b = b, a
+
+print(a, b)
+
+ist = True
+txt = "alam" if ist else "jonas"
+
+print("Oi") if ist else print("Não")
+
+# OR para onde for verdadeiro.
+ist or print("Noob")
+
+a = False or ist
+
+# for a, b in enumerate(range(10, 1, -1)):
+#    print(a, b)
+
+'''
