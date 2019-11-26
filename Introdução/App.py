@@ -176,3 +176,17 @@ else:
 '''
 
 # SPLIT JOIN ENUMERATE
+
+frase = "Irineu, você não sabe nem eu."
+lista = frase.split(", ")
+frase2 = ", ".join(lista)
+
+print(frase2)
+
+for i, far in enumerate(lista):
+    print(i, far)
+
+n1, n2 = lista
+
+print(n1)
+print(n2)
