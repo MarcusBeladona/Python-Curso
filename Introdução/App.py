@@ -157,4 +157,22 @@ print(max(lista), min(lista))
 
 lista_dois = list(range(1, 11))
 print(lista_dois)
+
+
+#FOR / ELSE
+
+char = "B"
+nomes = ["Letícia", "Alex", "João"]
+
+for c in nomes:
+
+    if c.upper().startswith(char):
+        print(f"Há palavras com {char}.")
+        break
+
+else:
+    print(f"Não há palavras com {char}.")
+    
 '''
+
+# SPLIT JOIN ENUMERATE
